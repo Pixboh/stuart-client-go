@@ -151,8 +151,9 @@ type PricingModel struct {
 }
 
 type PricingProposalModel struct {
-	Amount   float64 `json:"amount"`
-	Currency string  `json:"currency"`
+	Amount        float64 `json:"amount"`
+	AmountWithTax float64 `json:"amount_with_tax"`
+	Currency      string  `json:"currency"`
 }
 
 type ProofModel struct {
