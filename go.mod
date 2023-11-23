@@ -1,5 +1,5 @@
 module github.com/Pixboh/stuart-client-go
-replace github.com/evermile/stuart-client-go/@latest => ./github.com/Pixboh/stuart-client-go
+replace github.com/Pixboh/stuart-client-go/@latest => ./github.com/Pixboh/stuart-client-go
 
 
 go 1.18
