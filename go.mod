@@ -1,4 +1,4 @@
-module github.com/evermile/stuart-client-go
+module github.com/Pixboh/stuart-client-go
 
 go 1.18
 
