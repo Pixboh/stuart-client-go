@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 	"fmt"
-	stuartclient "github.com/evermile/stuart-client-go"
+	stuartclient "github.com/Pixboh/stuart-client-go"
 )
 
 func main() {
