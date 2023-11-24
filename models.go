@@ -23,6 +23,7 @@ type JobModel struct {
 	ClientReference string                `json:"client_reference"`
 	Pickups         []PickupRequestModel  `json:"pickups"`
 	Dropoffs        []DropoffRequestModel `json:"dropoffs"`
+	TransportType   TransportType         `json:"transport_type"`
 }
 
 type ContactDetails struct {
@@ -32,6 +33,15 @@ type ContactDetails struct {
 	Email     string `json:"email"`
 	Company   string `json:"company"`
 }
+
+type TransportType string
+
+const (
+	TransportTypeBike TransportType = "bike"
+	TransportTypeCar  TransportType = "car"
+	//motorbike
+	TransportTypeMoto TransportType = "motorbike"
+)
 
 type PackageType string
 
